@@ -17,6 +17,10 @@ public class GildedRose {
         updateQuality();
     }
 
+    public GildedRose(Inventory inventory) {
+        this.inventory = inventory;
+    }
+
     public void updateQuality() {
         List<Item> items = inventory.getItems();
 

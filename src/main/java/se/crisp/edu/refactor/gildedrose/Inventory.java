@@ -1,14 +1,12 @@
 package se.crisp.edu.refactor.gildedrose;
 
-import se.crisp.edu.refactor.gildedrose.Item;
-
 import java.util.ArrayList;
 
 public class Inventory {
 
     private final ArrayList<Item> items;
 
-    Inventory() {
+    public Inventory() {
         items = new ArrayList<>();
         items.add(new Item("+5 Dexterity Vest", 10, 20));
         items.add(new Item("Aged Brie", 2, 0));

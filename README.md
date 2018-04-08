@@ -1,7 +1,7 @@
-# bdd-kata
+# BDD kata
 A BDD Kata using Cucumber. BDD is sometimes referred to as Specification by Example.
 
-Cucumber is an implementation of the Gherkin language for specification. It also know as "given-when-then" as this
+Cucumber is an implementation of the Gherkin language for specification. It also known as "given-when-then" as this
 makes the structure of a specification element. See [Resources](Resources) below for more information on the language.
 
 Cucumber executes the specification and with the help of your glue code, it can interface with the system under test.
